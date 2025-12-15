@@ -28,7 +28,7 @@ and data visualization** using Python.
 - Which industries employ the most high-paid remote developers?
 - How is the global developer population distributed?
 
-## Project Structure
+##📁 Project Structure
 ```
 Annual_Developer_Survey/
 │
@@ -104,7 +104,7 @@ survey_df, schema_df = load_data_from_zip(
 df = preprocess_data(survey_df)
 ```
 
-## Analysis & Visualizations
+##📈Analysis & Visualizations
 ### Experience & Salary
 - Mean and median salaries increase consistently with experience
 - Average salary grows faster than median, indicating high-end outliers
@@ -138,12 +138,12 @@ df = preprocess_data(survey_df)
 - Respondents are concentrated in North America, Europe, and India
 - Participation reflects global IT market development
   
-**Interactive Map**
+**🌍Interactive Map**
   
 Explore the global developer distribution on this interactive map: 
 [View World Map](https://nvoitsitska-creator.github.io/Analysis-of-the-annual-developer-survey/respondents_world_map.html)
 
-## Looker Studio Dashboard
+##📊Looker Studio Dashboard
 
 Explore the interactive dashboard on Looker Studio:
 
