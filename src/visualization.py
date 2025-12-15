@@ -78,7 +78,7 @@ def industry_salary_heatmap(df: pd.DataFrame) -> None:
     save_and_show('industry_salary_heatmap.png')
 
 def save_plotly(fig, file_name:str) -> None:
-    fig.write_html(FIGURES_DIR / file_name)
+    fig.write_html(FIGURES_DIR / file_name, include_plotlyjs='cdn')
 
 #World map of respondents count
 def respondents_world_map(df: pd.DataFrame) -> None:
@@ -103,6 +103,7 @@ def respondents_world_map(df: pd.DataFrame) -> None:
         geo=dict(showframe=False, showcoastlines=True),
         template='plotly_white'
     )
+
     save_plotly(fig, 'respondents_world_map.html')
 
 
