@@ -108,15 +108,18 @@ df = preprocess_data(survey_df)
 ### Experience & Salary
 - Mean and median salaries increase consistently with experience
 - Average salary grows faster than median, indicating high-end outliers
+![Salary by Experience Level](https://github.com/nvoitsitska-creator/Analysis-of-the-annual-developer-survey/blob/master/output/figures/barplot_salary_by_experience.png?raw=true)
 
 ### Programming Languages
 - R and C# have the highest median salaries
 - Python is widely used and provides a moderate salary advantage
 - JavaScript shows slightly lower median compensation
+![Salary by Programming Language](https://github.com/nvoitsitska-creator/Analysis-of-the-annual-developer-survey/blob/master/output/figures/salary_by_language.png?raw=true)
 
 ### Python Impact
 - Python developers earn more in most industries
 - The strongest effect is observed in FinTech and Healthcare
+![Industry Salary Heatmap](https://github.com/nvoitsitska-creator/Analysis-of-the-annual-developer-survey/blob/master/output/figures/industry_salary_heatmap.png?raw=true)
 
 ### Remote Work
 - Fully remote roles show higher median salaries
@@ -125,10 +128,21 @@ df = preprocess_data(survey_df)
 ### Industry Insights
 - Software Development dominates high-paid remote positions
 - FinTech and Healthcare also show strong representation
+![Industries among High-Paid Remote Workers](https://github.com/nvoitsitska-creator/Analysis-of-the-annual-developer-survey/blob/master/output/figures/Industries_among_High-paid_Remote_Workers.png?raw=true)
+
+### Age Distribution
+- Visualizes how respondents are distributed by age
+![Age Distribution](https://github.com/nvoitsitska-creator/Analysis-of-the-annual-developer-survey/blob/master/output/figures/age_distribution_bar.png?raw=true)
 
 ### Global Distribution
 - Respondents are concentrated in North America, Europe, and India
 - Participation reflects global IT market development
+  
+**Interactive Map**
+  
+Explore the global developer distribution on this interactive map: 
+[View World Map](https://nvoitsitska-creator.github.io/Analysis-of-the-annual-developer-survey/respondents_world_map.html)
+
 
 ## Output Artifacts
 ### CSV tables with calculated metrics:
