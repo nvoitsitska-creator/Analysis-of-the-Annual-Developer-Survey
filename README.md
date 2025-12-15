@@ -77,7 +77,7 @@ Key preprocessing steps:
 
 1. Clone the repository:
 ```
-git clone <>
+git clone <https://github.com/nvoitsitska-creator/Analysis-of-the-annual-developer-survey.git>
 cd Annual_Developer_Survey
 ```
 
