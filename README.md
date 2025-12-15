@@ -143,6 +143,12 @@ df = preprocess_data(survey_df)
 Explore the global developer distribution on this interactive map: 
 [View World Map](https://nvoitsitska-creator.github.io/Analysis-of-the-annual-developer-survey/respondents_world_map.html)
 
+## Looker Studio Dashboard
+
+Explore the interactive dashboard on Looker Studio:
+
+[View Dashboard](https://lookerstudio.google.com/reporting/12cf5bbe-9486-44d5-bf83-08c40de09a6f)
+
 
 ## Output Artifacts
 ### CSV tables with calculated metrics:
